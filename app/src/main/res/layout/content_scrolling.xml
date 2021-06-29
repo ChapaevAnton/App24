@@ -8,4 +8,10 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_coordinator_layout_layout_based">
 
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_more"/>
+
 </androidx.core.widget.NestedScrollView>
